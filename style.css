@@ -3,3 +3,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
 
 
+.demo-wrap {
+    overflow: hidden;
+    
+  }
+  
+.demo-bg {
+    opacity: 0.6;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
+
+.demo-content {
+    position: relative;
+}
