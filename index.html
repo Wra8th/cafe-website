@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css"> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="bg-blue-100">
+<header class="bg-yellow-200">
+    <div class="container inline-flex mx-auto">
+            <a href="#home" class="px-20 py-5 text-3xl text-red-500">Home</a>
+            <a href="#about" class="px-20 py-5 text-3xl text-red-500">Bill</a>
+    </div>
+</header>
+<div class="container text-align-center mx-auto py-10">
+    <h1 class="text-5xl text-center font-sans">Welcome!</h1>
+    <label class="text-4xl text-green-600 font-serif" for="food">What would you like to have?</label>
+    <br>
+    <div class="container py-10 px-20">
+        <label class="text-2xl text-red-400 font-semibold font-mono" for="tea"> Tea </label>
+        <input type="checkbox" id="tea" name="tea">
+        <label for="tea-quantity"> Quantity: </label>
+        <input type="number" name = "tea-quantity" id="tea-quantity">
+    </div>
+    <div class="container py-10 px-20">
+        <label class="text-2xl text-red-400 font-semibold font-mono" for="coffee"> Coffee </label>
+        <input type="checkbox" id="coffee" name="coffee">
+        <label for="thepla-quantity"> Quantity: </label>
+        <input type="number" id="coffee-quantity">
+    </div>
+    <div class="container py-10 px-20">
+        <label class="text-2xl text-red-400 font-semibold font-mono"for="thepla"> Thepla </label>
+        <input type="checkbox" id="thepla" name="thepla">
+        <label for="thepla-quantity"> Quantity: </label>
+        <input type="number" id="thepla-quantity">
+    </div>
+    <div class="container py-10 px-20">
+        <label class="text-2xl text-red-400 font-semibold font-mono" for="paratha"> Paratha </label>
+        <input type="checkbox" id="paratha" name="paratha">
+        <label for="paratha-quantity"> Quantity: </label>
+        <input type="number" id="paratha-quantity">
+    </div>
+    <br>
+    <button onclick="price()" class="text-2xl font-sans bg-red-600 mx-40 px-5 py-5 text-blue-600 hover:bg-green-600"> Submit!</button>
+</div>
+<div class="container flex center mx-auto">
+<h4 class="text-3xl text-red-600 font-sans mx-20">Bill:</h4>
+<div class="align-center box-border h-64 w-64 p-4 border-4 border-black mx-40..." id="ans" name="ans">   
+    </div>
+</div>
+<script src="Script.js"></script>
+</body>
+</html>
